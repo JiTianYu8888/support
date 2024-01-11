@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Goutou Studio - 技术支持</title>
+<style>
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg, #1ef11e 0,#ff9900 58%);
+}
+
+ul {
+    z-index:999;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left:-8px;
+    background: rgba(255, 255, 255, 0.418);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0000001e;
+}
+
+.active {
+    background-color: #4e83f5;
+}
+
+.card {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #1100ff;
+  text-decoration: none;
+}
+
+div{
+    margin: 5% auto;
+}
+
+p{
+    font-size: 1.3rem;  
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a class="active">GoutouStudio</a></li>
+    <li><a href="https://discord.gg/YD6bdRaw">Discord</a></li>
+    <li><a href="https://github.com/JiTianYu8888/">开源地址</a></li>
+    <li><a href="https://www.ixigua.com/home/2053495048635976?list_entrance=homepage">西瓜账号</a></li>
+    <li><a href="https://jitianyu8888.github.io/about">关于我们</a></li>
+    <li><a href="https://jitianyu8888.github.io">主页</a></li>
+</ul>
+
+<div class="card">
+    <h3 class="card-title">技术支持</h3>
+    <p><strong>问：为什么我的计算机在终端输入hlt后会死机？</strong></p>
+    <p>答：这是我们的一个测试功能。这项功能会让CPU停止运行，所以会死机。</p>
+    <p><strong>问：为什么删掉了那么多软件？</strong></p>
+    <p>答：因为我们全面改造了内核，采用新的NovaKernel内核，所以软件不支持要删掉。</p>
+</div>
+
+</body>
+</html>
